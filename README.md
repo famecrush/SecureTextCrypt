@@ -24,7 +24,7 @@ python SecureTextCrypt.py encrypt "Your secret message" --public-key recipient_p
 ````
 Decrypt Text
 ````
-python SecureTextCrypt.py decrypt --encrypted-text encrypted_text.bin --private-key private_key.pem
+python SecureTextCrypt.py decrypt --encrypted-text encrypted_text.bin --private-key recipient_private_key.pem
 ````
 To extract public key from private key
 ````
@@ -42,7 +42,7 @@ python3 SecureTextCrypt.py encrypt "Your secret message" --public-key recipient_
 ````
 Decrypt Text
 ````
-python3 SecureTextCrypt.py decrypt --encrypted-text encrypted_text.bin --private-key private_key.pem
+python3 SecureTextCrypt.py decrypt --encrypted-text encrypted_text.bin --private-key recipient_private_key.pem
 ````
 To extract public key from private key
 ````
