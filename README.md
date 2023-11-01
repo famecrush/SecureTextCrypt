@@ -2,7 +2,7 @@
 
 **SecureTextCrypt** is a Python utility for secure text encryption and decryption using RSA and AES cryptography. Safeguard your sensitive data during storage and transmission.
 
-### Features
+## Features
 
 - Generate RSA key pairs (private and public keys).
 - Encrypt text messages with a recipient's public key.
@@ -12,7 +12,7 @@
 ## Usage
 
 ### Generate RSA Keys
-## WINDOWS
+#### WINDOWS
 
 Generate Private key
 ````
@@ -31,7 +31,7 @@ To extract public key from private key
 python public-key-extractor.py
 #CHECK THE CODE AND CHANGE THE FILE NAME ACCORDING TO YOUR NEED.
 ````
-## LINUX
+#### LINUX
 Generate Private key
 ````
 python3 SecureTextCrypt.py key --generate --private-key my_private_key.pem
@@ -49,7 +49,7 @@ To extract public key from private key
 python3 public-key-extractor.py
 #CHECK THE CODE AND CHANGE THE FILE NAME ACCORDING TO YOUR NEED.
 ````
-## Installation
+### Installation
 Clone the repository:
 ````
 git clone https://github.com/famecrush/TEXT-ENCRYPTER.git
@@ -58,5 +58,8 @@ Install the required dependencies:
 ````
 pip install -r requirements.txt
 ````
-### Features Contributing
+## Features Contributing
 Contributions are welcome! Feel free to open issues and pull requests.
+
+## Contact
+My LinkedIn :- https://www.linkedin.com/in/mahipal-choudhary-b8181823a/
