@@ -52,7 +52,7 @@ python3 public-key-extractor.py
 ### Installation
 Clone the repository:
 ````
-git clone https://github.com/famecrush/TEXT-ENCRYPTER.git
+git clone https://github.com/famecrush/SecureTextCrypt.git
 ````
 Install the required dependencies:
 ````
